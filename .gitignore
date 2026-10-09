@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Raw and intermediate data stay out of git; releases land on Zenodo / Hugging Face.
+data/raw/
+data/intermediate/
+*.parquet
+*.duckdb
+*.wal
+
+# PDF cache
+cache/pdfs/
+*.pdf
+
+# Local notes
+scratch/
+TODO.local.md
