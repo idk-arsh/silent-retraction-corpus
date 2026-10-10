@@ -2,6 +2,8 @@
 
 A labeled, versioned, DOI-anchored dataset of silently-edited scientific papers detected across preprint-to-journal diffs. First greppable record of how the scholarly record quietly mutates.
 
+**DOI (reserved):** [10.5281/zenodo.23272145](https://doi.org/10.5281/zenodo.23272145) — reserved 2026-10-09; v1.0 release target 2027-01-03.
+
 ## Scope (v0.0)
 
 Clinical-trial preprints and their corresponding journal publications. Each pair is matched by Crossref `is_preprint_of` relations, title-and-author fuzzy match within an eighteen-month window, or shared ClinicalTrials.gov registry IDs. Each pair yields a typed diff across six categories: `numeric_shift`, `author_change`, `methods_change`, `limitations_change`, `data_availability_change`, `coi_change`.
